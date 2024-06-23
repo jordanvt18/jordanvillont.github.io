@@ -25,11 +25,11 @@ classification, regression, and clustering tasks
 ## Projects
 ### TITLES REGISTERED IN ECUADOR
 
-[Publication]([https://www.mdpi.com/1424-8220/22/8/3048](https://app.powerbi.com/view?r=eyJrIjoiNTQxYTk2ZTktYWEzZS00OWI3LTg3YzAtZjJmZjBkZDc1YmJiIiwidCI6ImI3YWY4Y2FmLTgzZDgtNDY0NC04NWFlLTMxN2M1NDUyMjNjMSIsImMiOjR9)
+(https://app.powerbi.com/viewr=eyJrIjoiNTQxYTk2ZTktYWEzZS00OWI3LTg3YzAtZjJmZjBkZDc1YmJiIiwidCI6ImI3YWY4Y2FmLTgzZDgtNDY0NC04NWFlLTMxN2M1NDUyMjNjMSIsImMiOjR)
 
 Utilizing data-driven analysis, the **Power BI** dashboard presents a comprehensive view of educational achievements in Ecuador. The visualizations include a pie chart comparing the ‘Técnico’ and ‘Tercer Nivel’ categories, revealing their proportional distribution. Additionally, two tables display titles by province and titles per year, offering insights into trends and educational progress. The data, sourced from SENESCYT and SNIESE, provides a flexible and automated approach to understanding key components of Ecuador’s education landscape
 
 
 
 
-- [Data Science Blog]([https://medium.com/@shawhin](https://jordanvillon.medium.com/)
+- [Data Science Blog]([https://jordanvillon.medium.com/])
