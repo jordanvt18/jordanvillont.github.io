@@ -1,35 +1,48 @@
-# Data Scientist
+# Jordan Villon - Data Scientist
 
-#### Technical Skills: Python, R, MATLAB, SQL, MongoDB, Tableau, Power BI, QGIS
+## Technical Skills
+**Languages:** Python, R, MATLAB, SQL, MongoDB  
+**Visualization Tools:** Tableau, Power BI, QGIS  
+**Other Tools:** LaTeX, Excel, Visual Studio Code, Anaconda  
 
-## Education		        		
-- B.S., Economist | Escuela Superior Politécnica del Litoral (ESPOL) (_Feb 2023_)
+## Education
+**B.S. in Economics and Econometrics**  
+_Espol, Ecuador_ (May 2018 - Feb 2023)
 
-## Work Experience
-**Data Scientist @ AB-IINBEV (_October 2022 - Present_)**
-- I apply machine learning techniques and econometric models to optimize indicators such as NPS and
-others related to customer satisfaction, business performance, and operational efficiency. With this, I exceed expectations and achieve an overachievement of objectives.
-- I generate interactive reports that integrate the results of econometric analysis, machine learning, and other techniques. With this, I facilitate decision-making and guide the actions to be taken
+## Professional Experience
+### Data Scientist @ AB-InBev  
+_October 2022 - Present_  
+- Applied machine learning and econometric models to optimize indicators like NPS, improving customer satisfaction and operational efficiency.
+- Developed interactive reports integrating econometric analysis and machine learning results, aiding decision-making.
 
-**Data Science Intern @ AB-IINBEV (_March 2022- September 2022_)**
-- Elaboration of Reports, and Dashboards
-- Application of descriptive, predictive, and prescriptive analytics using machine learning algorithms in
-classification, regression, and clustering tasks
+### Business Intelligence Analyst @ AB-InBev  
+_March 2022 - September 2022_  
+- Applied descriptive, predictive, and prescriptive analytics using machine learning algorithms.
+- Managed databases, optimizing data extraction for strategic decision-making reports.
 
+### Data Analyst @ ESPOL  
+_October 2021 - February 2022_  
+- Conducted statistical analysis and data visualization for decision-making.
+- Designed and tested descriptive and predictive models.
 
-**Data Analyst Intern @ ESPOL (_October 2021- February 2022_)**
-- Formulation and Application of Descriptive and Predictive Models
-- Statistical Analysis and Visualization of Data for Decision-Making
-
-  
 ## Projects
-### TITLES REGISTERED IN ECUADOR
+### Educational Titles Registered in Ecuador  
+**Power BI Dashboard**: [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTQxYTk2ZTktYWEzZS00OWI3LTg3YzAtZjJmZjBkZDc1YmJiIiwidCI6ImI3YWY4Y2FmLTgzZDgtNDY0NC04NWFlLTMxN2M1NDUyMjNjMSIsImMiOjR9)  
+This interactive **Power BI** dashboard provides an in-depth analysis of the educational titles registered in Ecuador, sourced from **SENESCYT** (Secretaría Nacional de Educación Superior, Ciencia y Tecnología) and **SNIESE** (Sistema Nacional de Información de Educación Superior del Ecuador). 
 
-[Publication] (https://app.powerbi.com/viewr=eyJrIjoiNTQxYTk2ZTktYWEzZS00OWI3LTg3YzAtZjJmZjBkZDc1YmJiIiwidCI6ImI3YWY4Y2FmLTgzZDgtNDY0NC04NWFlLTMxN2M1NDUyMjNjMSIsImMiOjR)
+#### Key features of the dashboard:
+- **Distribution of Titles**: Visualizes the proportion of titles across different educational levels (e.g., ‘Técnico’, ‘Tercer Nivel’).
+- **Trends Over Time**: Displays how the issuance of titles has evolved over the years, offering valuable insights into the progression of higher education.
+- **Regional Analysis**: Breaks down the data by province, highlighting regional educational achievements and disparities.
+  
+This project is aimed at assisting educational authorities, policy makers, and researchers to better understand the current educational landscape and make data-driven decisions. By automating the data updates and visualizations, it ensures real-time insights and helps identify trends that may affect policy or educational funding.
 
-Utilizing data-driven analysis, the **Power BI** dashboard presents a comprehensive view of educational achievements in Ecuador. The visualizations include a pie chart comparing the ‘Técnico’ and ‘Tercer Nivel’ categories, revealing their proportional distribution. Additionally, two tables display titles by province and titles per year, offering insights into trends and educational progress. The data, sourced from SENESCYT and SNIESE, provides a flexible and automated approach to understanding key components of Ecuador’s education landscape
+## Certifications
+- **Applied Data Science Lab (2024)** - WorldQuant University  
+- **Agile Explorer (2023)** - IBM  
+- **Python for Data Science (2023)** - IBM  
+- **Machine Learning with Scikit-learn (2023)** - France Université Numérique  
+- **Tableau Desktop III (2022)** - Tableau eLearning Program  
 
+## [Data Science Blog](https://jordanvillon.medium.com/)
 
-
-
-- [Data Science Blog] ([https://jordanvillon.medium.com/])
