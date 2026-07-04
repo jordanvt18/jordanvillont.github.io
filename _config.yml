@@ -1,5 +1,6 @@
-title: Jordan Villon
-#logo: /assets/img/headshot_circle.png
-#description: text below image
-#show_downloads: true
-theme: jekyll-theme-minimal
+# Jekyll config - custom HTML overrides theme
+title: Jordan Villón Torres | Data Scientist & ML Engineer
+description: Data Scientist & ML Engineer specializing in Machine Learning, BI Dashboards, and Territorial Analytics.
+url: "https://jordanvt18.github.io"
+baseurl: ""
+plugins: []
