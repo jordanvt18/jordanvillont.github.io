@@ -1,134 +1,192 @@
-# Jordan Villón - Full-Stack Developer & AI/ML Specialist 🚀
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&duration=3000&pause=1000&color=00D9FF&center=true&width=650&lines=Jordan+Vill%C3%B3n+Torres;Data+Scientist+%7C+ML+Engineer+%7C+BI+Developer;Transforming+Data+Into+Competitive+Advantage" alt="Typing SVG" />
+</p>
 
-## About Me
+<p align="center">
+  <a href="https://jordanvt18.github.io" target="_blank">
+    <img src="https://img.shields.io/badge/%F0%9F%8C%90%20Live%20Portfolio-jordanvt18.github.io-00D9FF?style=for-the-badge&logoColor=white" alt="Live Portfolio"/>
+  </a>
+</p>
 
-👋 Welcome! I'm Jordan Villón, a Full-Stack Developer and Machine Learning Engineer with expertise in data science, deep learning, and financial technology. I build intelligent solutions that solve real-world problems across agriculture, healthcare, and fintech sectors.
-
-💡 Passionate about leveraging machine learning, data analytics, and agile methodologies to drive strategic innovation. Currently focused on AI applications, data pipeline optimization, and full-stack development.
-
-🌍 Based in Ecuador | Open to Remote & International Opportunities
-
----
-
-## 🛠️ Technical Skills
-
-**Programming Languages:**
-- Python (PyTorch, Scikit-learn, Pandas, Polars)
-- JavaScript/Node.js
-- SQL & NoSQL (MongoDB, PostgreSQL)
-- R (Statistical Analysis)
-
-**Machine Learning & Data Science:**
-- Deep Learning (PyTorch, Neural Networks)
-- Data Processing & Benchmarking
-- Statistical Modeling & Analysis
-- Time Series Analysis
-- Data Visualization (Plotly, Matplotlib, Seaborn)
-
-**Web Development:**
-- HTML5, CSS3, JavaScript
-- Responsive Design
-- Dashboard Development
-- Frontend Frameworks
-
-**Tools & Technologies:**
-- Git & GitHub (Version Control)
-- Docker & Containerization
-- Jupyter Notebooks
-- Power BI & Data Visualization
-- CI/CD Pipelines
-- Agile Methodologies
+<p align="center">
+  <a href="https://www.linkedin.com/in/jordanvillontorres" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://jordanvt18.github.io" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="mailto:jvto18@proton.me">
+    <img src="https://img.shields.io/badge/Email-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
 
 ---
 
-## 🎓 Education
+## 🎯 About Me
 
-**B.S. in Economics and Econometrics**  
-_ESPOL University, Ecuador_ (May 2018 - February 2023)
+Specialized in **Machine Learning**, **Interactive Visualization**, and **Territorial Analytics** with 5+ years applying data science across diverse industries. I transform complex datasets into actionable business intelligence that drives measurable ROI.
 
----
+**Core Expertise**: Deep Learning • Time Series Analysis • BI Dashboarding • Data Pipeline Architecture • Statistical Modeling • Geospatial Analysis
 
-## 💼 Professional Experience
-
-### Data Scientist @ AB-InBev
-_September 2023 - Present_
-- Optimized customer satisfaction and operational efficiency using machine learning and econometric models
-- Developed spatial optimization models, reducing costs and improving logistics performance
-- Designed interactive dashboards integrating econometric and machine learning insights
-- Implemented data pipeline optimization strategies
-
-### Business Intelligence Analyst @ AB-InBev
-_October 2022 - September 2023_
-- Applied machine learning algorithms for classification, prediction, and segmentation
-- Generated actionable insights from large datasets
-- Optimized data extraction processes to support strategic decision-making
-
-### Data Analyst @ ESPOL
-_October 2021 - February 2022_
-- Conducted statistical analysis and designed predictive models for decision-making
-- Managed databases and developed interactive visualizations
-- Supported academic research with data-driven insights
+> 🌍 Based in Ecuador | Open to Remote & International Opportunities
 
 ---
 
-## 📊 Featured Projects
+## 💻 Tech Stack
 
-### 🍌 Banana Disease Detection - Deep Learning
-**Repository:** [View on GitHub](https://github.com/jordanvt18/banana-disease-detection)
-- **Tech Stack:** Python, PyTorch, Deep Learning, Jupyter Notebooks
-- **Description:** Developed a comprehensive deep learning model to detect diseases in banana crops using convolutional neural networks. This system aids agricultural workers in early disease identification and treatment decisions.
-- **Impact:** Agricultural AI application providing automated disease detection for crop protection
-
-### 💰 Bancos y Cooperativas Ecuador - Financial Comparison Tool
-**Repository:** [View on GitHub](https://github.com/jordanvt18/bancos-cooperativas-ecuador)
-- **Tech Stack:** JavaScript, Financial APIs, Data Processing
-- **Description:** Built a comprehensive comparison tool aggregating financial data from banks and cooperatives across Ecuador. Provides users with transparent financial metrics for informed decision-making.
-- **Impact:** Fintech application serving Ecuador's financial sector with real-time comparative analysis
-
-### 🏥 SmartLife Analyzer - Health Dashboard
-**Repository:** [View on GitHub](https://github.com/jordanvt18/smartlife-analyzer)
-- **Tech Stack:** HTML, JavaScript, Dashboard Development
-- **Description:** Created an interactive health analytics dashboard with static data visualization and machine learning model retraining capabilities. Features real-time health metrics monitoring and predictive insights.
-- **Impact:** Full-stack healthcare application demonstrating end-to-end ML workflow integration
-
-### 📈 Python Data Processing Benchmark - Performance Analysis
-**Repository:** [View on GitHub](https://github.com/jordanvt18/python-data-processing-benchmark)
-- **Tech Stack:** Python, Pandas, Polars, Data.table, Jupyter Notebooks
-- **Description:** Comprehensive comparative analysis of popular data processing libraries in Python. Evaluated performance metrics including speed, memory usage, and efficiency across different dataset sizes and operations.
-- **Impact:** Technical research providing developers with data-driven insights for library selection and optimization strategies
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL-005C84?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+</p>
 
 ---
 
-## 🎓 Certifications & Continuous Learning
+## 📊 GitHub Analytics
 
-- **Applied Data Science Lab (2024)** - WorldQuant University
-- **Agile Explorer (2023)** - IBM
-- **Python for Data Science (2023)** - IBM
-- **Machine Learning with Scikit-learn (2023)** - France Université Numérique
-- **Tableau Desktop III (2022)** - Tableau eLearning Program
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jordanvt18&show_icons=true&theme=radical&rank_icon=percentile&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jordanvt18&layout=compact&theme=radical&langs_count=10&hide_border=true" height="180"/>
+</p>
 
----
-
-## 🔗 Connect With Me
-
-📧 **Email:** [Contact me](mailto:your-email@example.com)  
-💼 **LinkedIn:** [Jordan Villón](https://www.linkedin.com/in/jordanvillontorres/)  
-🐙 **GitHub:** [jordanvt18](https://github.com/jordanvt18)  
-📝 **Medium:** [My Articles](https://jordanvillon.medium.com/)  
-📄 **Resume/CV:** [Download PDF](https://github.com/jordanvt18)
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jordanvt18&theme=radical&date_format=M%20j%5B%2C%20Y%5D&hide_border=true" height="180"/>
+</p>
 
 ---
 
-## 💬 Let's Work Together
+## 🚀 Featured Projects
 
-I'm always interested in:
-- Collaborative projects combining ML and full-stack development
-- Open-source contributions
-- Technical consulting and mentoring
-- Innovative solutions in AI, fintech, and healthtech
+> 🌐 **Explore all projects interactively at [jordanvt18.github.io](https://jordanvt18.github.io)** — with live filtering, animations, and detailed cards.
 
-Feel free to reach out to discuss collaboration opportunities, ask questions about my projects, or simply connect!
+### 🎯 FLAGSHIP PROJECTS
+
+#### 🍌 [Banana Disease Detection](https://github.com/jordanvt18/banana-disease-detection)
+**Deep Learning • Computer Vision • PyTorch • Transfer Learning**
+
+Advanced classification system leveraging ResNet18 + Transfer Learning for agricultural disease detection across 4 pathology classes. Production-ready with automated image downloading, interactive demo, and Docker containerization.
+
+**Key Metrics**: 5s/image inference • +150% projected ROI • 25% pesticide reduction
 
 ---
 
-*Last Updated: 2024 | Actively maintaining repositories and exploring new technologies*
+#### 📊 [Python Data Processing Benchmark](https://github.com/jordanvt18/python-data-processing-benchmark)
+**Big Data • Performance Analysis • Pandas • Polars • Comparative Study**
+
+Comprehensive technical comparison of major Python data processing libraries. Rigorous benchmarking across memory efficiency, computation speed, and use-case optimization.
+
+---
+
+#### 🔐 [Centinela Live](https://github.com/jordanvt18/Centinela_live)
+**Security Monitoring • Real-time Alerts • Python • JavaScript • Full Stack**
+
+Modular security monitoring and alerting system with advanced threat detection capabilities. Scalable microservices architecture with event-driven pipeline.
+
+---
+
+### 📈 BI & ANALYTICS
+
+#### 📊 [Ecuador Education Dashboard](https://github.com/jordanvt18/TESISGRADO)
+**Power BI • Open Data • Educational Analytics • Territorial Analysis**
+
+Interactive public Power BI dashboard analyzing official degree registrations across Ecuador.
+
+<p align="center">
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiNTQxYTk2ZTktYWEzZS00OWI3LTg3YzAtZjJmZjBkZDc1YmJiIiwidCI6ImI3YWY4Y2FmLTgzZDgtNDY0NC04NWFlLTMxN2M1NDUyMjNjMSIsImMiOjR9" target="_blank">
+    <img src="https://img.shields.io/badge/%F0%9F%94%97%20INTERACTIVE%20DASHBOARD-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  </a>
+</p>
+
+---
+
+#### 💳 [Financial Security Analyzer](https://github.com/jordanvt18/bancos-cooperativas-ecuador)
+**Fintech • Security Analysis • JavaScript • Risk Assessment**
+
+Comparative financial security platform evaluating banking institutions and cooperatives in Ecuador.
+
+---
+
+#### 🏠 [SmartLife Analyzer](https://github.com/jordanvt18/smartlife-analyzer)
+**Health Analytics • Dashboard Development • Interactive Visualization • HTML/CSS/JS**
+
+Static health dashboard with real-time analysis and ML model retraining demonstration.
+
+---
+
+### 🌐 WEB & PORTFOLIO
+
+#### 💼 [Professional Portfolio](https://github.com/jordanvt18/jordanvillont.github.io)
+**Jekyll • GitHub Pages • CI/CD • Personal Branding**
+
+Custom-built portfolio with automated deployment pipeline. **Live**: [jordanvt18.github.io](https://jordanvt18.github.io)
+
+---
+
+### 🔬 ACADEMIC & AUXILIARY
+
+#### 📊 [Crime Analytics Study](https://github.com/jordanvt18/TESISGRADO)
+**Hierarchical Clustering • Econometric Analysis • Territorial Statistics • Policy Research**
+
+Thesis-level research characterizing criminality patterns across Ecuadorian provinces.
+
+---
+
+## 🎓 Certifications & Credentials
+
+| Certification | Issuer | Year |
+|:---|:---|:---:|
+| Machine Learning & TensorFlow Specialization | IBM | 2024 |
+| Applied Data Science Lab | WorldQuant University | 2024 |
+| Python for Data Science | IBM | 2023 |
+| Financial Analysis & Modeling | CFI | 2025 |
+| GitHub Career Essentials | GitHub | 2025 |
+| Databricks Certification | Databricks | In Progress |
+
+---
+
+## 💡 Specializations
+
+| Domain | Expertise |
+|:---|:---|
+| **Machine Learning** | Supervised/Unsupervised Learning, Ensemble Methods, Neural Networks, Time Series |
+| **Deep Learning** | CNN/RNN Architectures, Transfer Learning, PyTorch, TensorFlow |
+| **Data Engineering** | Pipeline Design, ETL/ELT, Big Data (Spark), Databricks |
+| **Business Intelligence** | Power BI, Tableau, Data Storytelling, Interactive Visualization |
+| **Statistics & Econometrics** | Regression Analysis, Multivariate Analysis, Causal Inference |
+| **Geospatial Analysis** | Territory Mapping, QGIS, Choropleth Visualization |
+| **DevOps & MLOps** | Docker, CI/CD Pipelines, Git Workflows, Model Deployment |
+
+---
+
+## 🤝 Let's Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/jordanvillontorres" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://jordanvt18.github.io" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-Explore-FF6B6B?style=for-the-badge&logo=globe&logoColor=white" />
+  </a>
+  <a href="mailto:jvto18@proton.me">
+    <img src="https://img.shields.io/badge/Email-Reach%20Out-8B5CF6?style=for-the-badge&logo=protonmail&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <i>Building intelligent systems that transform raw data into competitive advantage.</i>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=jordanvt18&color=00d9ff&style=for-the-badge" />
+</p>
