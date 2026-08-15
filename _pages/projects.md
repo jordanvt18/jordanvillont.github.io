@@ -1,24 +1,106 @@
 ---
+layout: figma-page
 title: "Proyectos"
+eyebrow: "Portfolio"
+sub: "Los 10 repositorios que componen el portafolio, ordenados por impacto de negocio. Cada uno con README a nivel senior: metodología, arquitectura, resultados y gobernanza."
 permalink: /projects/
-author_profile: true
 ---
 
-Los 10 repositorios que componen mi portafolio, ordenados por impacto de negocio.
+<div class="proj-grid" style="margin: 32px 0 60px;">
+  <article class="proj">
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/quito.jpg" alt="Vista de Quito" loading="lazy" /></div>
+    <div class="body">
+      <div class="tags"><i>LightGBM</i><i>CNN+MLP</i><i>H3</i><i>FastAPI</i></div>
+      <h3>Radar de Valorización Urbana</h3>
+      <p>Valorización inmobiliaria Quito/Guayaquil con intervalos calibrados y SHAP.</p>
+      <div class="metrics"><span>Error<b>−18%</b></span><span>Cobertura<b>91%</b></span></div>
+    </div>
+  </article>
+  <article class="proj">
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/camaronera.jpg" alt="Piscinas camaroneras" loading="lazy" /></div>
+    <div class="body">
+      <div class="tags"><i>LSTM</i><i>PPO</i><i>FastAPI</i></div>
+      <h3>Bioseguridad Camarón AI</h3>
+      <p>Brotes en piscinas con DL+RL y simulador económico.</p>
+      <div class="metrics"><span>Alerta<b>7–14 días</b></span><span>Evitado<b>~$1.2M</b></span></div>
+    </div>
+  </article>
+  <article class="proj">
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/banana-plantation.jpg" alt="Plantación de banano" loading="lazy" /></div>
+    <div class="body">
+      <div class="tags"><i>ResNet18</i><i>ONNX</i><i>Docker</i></div>
+      <h3>Banana Disease Detection</h3>
+      <p>Detección de enfermedades del banano por visión por computador.</p>
+      <div class="metrics"><span>ROI<b>+150%</b></span><span>Pesticidas<b>−25%</b></span></div>
+    </div>
+  </article>
+  <article class="proj">
+    <div class="cover"><div class="cov">221</div></div>
+    <div class="body">
+      <div class="tags"><i>Índice compuesto</i><i>FastAPI</i></div>
+      <h3>Transparency Index Ecuador</h3>
+      <p>Índice de transparencia municipal y comparador de municipios pares.</p>
+      <div class="metrics"><span>Cobertura<b>221</b></span><span>Año<b>2025</b></span></div>
+    </div>
+  </article>
+  <article class="proj">
+    <div class="cover"><div class="cov">0–100</div></div>
+    <div class="body">
+      <div class="tags"><i>ETL</i><i>NLP</i><i>CI/CD</i></div>
+      <h3>Perfil Profesionalización Partidos</h3>
+      <p>Índice de profesionalización de candidatos (Elecciones 2026), reproducible.</p>
+      <div class="metrics"><span>Metodología<b>60/40</b></span></div>
+    </div>
+  </article>
+  <article class="proj">
+    <div class="cover"><div class="cov">2–10×</div></div>
+    <div class="body">
+      <div class="tags"><i>Pandas</i><i>Polars</i><i>data.table</i></div>
+      <h3>Python Data Processing Benchmark</h3>
+      <p>Comparativa reproducible de tiempo y memoria para decidir stack con evidencia.</p>
+      <div class="metrics"><span>Protocolo<b>controlado</b></span></div>
+    </div>
+  </article>
+  <article class="proj">
+    <div class="cover"><div class="cov">EC</div></div>
+    <div class="body">
+      <div class="tags"><i>JS/HTML</i><i>Pipelines CI</i></div>
+      <h3>Bancos &amp; Cooperativas Ecuador</h3>
+      <p>Comparador de seguridad financiera: solvencia, morosidad, liquidez, ROA/ROE.</p>
+      <div class="metrics"><span>Indicadores<b>7</b></span></div>
+    </div>
+  </article>
+  <article class="proj">
+    <div class="cover"><div class="cov">♥</div></div>
+    <div class="body">
+      <div class="tags"><i>Node.js</i><i>Estático</i></div>
+      <h3>SmartLife Analyzer</h3>
+      <p>Analítica de salud 100% local con retraining y validación holdout.</p>
+      <div class="metrics"><span>Privacidad<b>100% local</b></span></div>
+    </div>
+  </article>
+  <article class="proj">
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/crime-ridgeline.png" alt="Ridgeline de criminalidad por provincia" loading="lazy" /></div>
+    <div class="body">
+      <div class="tags"><i>ARIMA</i><i>Econometría espacial</i><i>Dash</i></div>
+      <h3>Ecuador Crime Analysis</h3>
+      <p>Analítica espacial y temporal de criminalidad con 43,976 registros oficiales.</p>
+      <div class="metrics"><span>Registros<b>43,976</b></span><span>Índices<b>3</b></span></div>
+    </div>
+  </article>
+  <article class="proj">
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/guayaquil.jpg" alt="Malecón de Guayaquil" loading="lazy" /></div>
+    <div class="body">
+      <div class="tags"><i>Jekyll</i><i>GitHub Actions</i></div>
+      <h3>jordanvillont.github.io</h3>
+      <p>Este portafolio: Jekyll + design system propio, deploy automático por GitHub Actions.</p>
+      <div class="metrics"><span>Deploy<b>automático</b></span></div>
+    </div>
+  </article>
+</div>
 
-| Proyecto | Qué resuelve | Impacto | Stack |
-|---|---|---|---|
-| [Radar de Valorización Urbana](https://github.com/jordanvt18/radar-valorizacion-urbana) | Valorización inmobiliaria Quito/Guayaquil con intervalos | −18% error vs. baseline; +15% ROI | LightGBM quantile, CNN+MLP, H3, FastAPI |
-| [Bioseguridad Camarón AI](https://github.com/jordanvt18/bioseguridad-camaron-AI) | Brotes en piscinas con DL+RL | Alertas 7–14 días; ~$1.2M evitados | LSTM/Transformer, PPO, FastAPI |
-| [Banana Disease Detection](https://github.com/jordanvt18/banana-disease-detection) | Enfermedades del banano por visión | +150% ROI; −25% pesticidas | ResNet18, PyTorch, ONNX |
-| [Transparency Index Ecuador](https://github.com/jordanvt18/transparency-index-ecuador) | Índice de transparencia municipal | 221 municipios (2025) | Índice compuesto, FastAPI |
-| [Perfil Profesionalización Partidos](https://github.com/jordanvt18/perfil-profesionalizacion-partidos-ecuador) | Profesionalización de candidatos | Índice 0–100 por candidato | ETL, NLP, FastAPI, CI/CD |
-| [Python Data Processing Benchmark](https://github.com/jordanvt18/python-data-processing-benchmark) | Pandas vs. Polars vs. data.table | Evidencia de stack 2–10× | Notebooks, pytest |
-| [Bancos & Cooperativas Ecuador](https://github.com/jordanvt18/bancos-cooperativas-ecuador) | Comparador de seguridad financiera | Educación financiera ciudadana | JS/HTML, pipelines CI |
-| [SmartLife Analyzer](https://github.com/jordanvt18/smartlife-analyzer) | Analítica de salud privada | Retraining con holdout | Node.js, estático |
-| [Ecuador Crime Analysis](https://github.com/jordanvt18/ecuador-crime-analysis) | Criminalidad espacial y temporal | 43,976 registros oficiales | ARIMA, econometría espacial, Dash |
-| [Portafolio v1 (legacy)](https://github.com/jordanvt18/jordanvillont.github.io) | Sitio anterior con demos | — | HTML/CSS/JS |
-
-## Demos
-
-- [Portafolio v1 con demos interactivas](/legacy/) — la versión anterior del sitio, conservada como referencia.
+<div class="section" style="padding-top: 0;">
+  <div class="container">
+    <p><a class="btn btn-primary" href="{{ site.baseurl }}/case-studies/">Ver casos de estudio →</a> &nbsp; <a class="btn btn-ghost" href="{{ site.baseurl }}/legacy/">Portafolio v1 (legacy) →</a></p>
+  </div>
+</div>

@@ -1,64 +1,175 @@
 ---
-layout: splash
+layout: figma-home
 permalink: /
-title: "Jordán Villón"
-excerpt: "Principal Data Scientist · Convierto incertidumbre en decisiones: econometría causal, aprendizaje por refuerzo y sistemas de ML escalables, medidos por KPIs de negocio."
-header:
-  overlay_color: "#0b0f19"
-  overlay_filter: "0.4"
-  overlay_image: /assets/images/hero.svg
-  actions:
-    - label: "📊 Casos de estudio"
-      url: "/case-studies/"
-    - label: "🚀 Proyectos"
-      url: "/projects/"
-feature_row:
-  - title: "Causal Inference & Econometría"
-    excerpt: "Modelos causales para pricing, valoración y políticas públicas: hipótesis explícitas, identificación y estimación rigurosa."
-    url: "/case-studies/"
-    btn_label: "Ver casos"
-    btn_class: "btn--primary"
-  - title: "Reinforcement Learning"
-    excerpt: "Agentes que optimizan decisiones dinámicas bajo incertidumbre: bioseguridad acuícola, operaciones y asignación de recursos."
-    url: "/case-studies/"
-    btn_label: "Ver casos"
-    btn_class: "btn--primary"
-  - title: "ML Systems en Producción"
-    excerpt: "De la hipótesis al despliegue: ETL, feature stores, APIs con latencia <100 ms, monitoreo de drift y gobernanza de modelos."
-    url: "/projects/"
-    btn_label: "Ver proyectos"
-    btn_class: "btn--primary"
 ---
 
-## Filosofía de liderazgo
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="pill"><span class="dot"></span> Principal Data Scientist · Ecuador · Remoto</span>
+      <h1>Convierto <span class="grad">incertidumbre</span> en decisiones de negocio.</h1>
+      <p class="hero-sub">
+        Econometría causal, aprendizaje por refuerzo y sistemas de ML escalables aplicados a KPIs
+        medibles — desde valorización urbana hasta bioseguridad industrial.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ site.baseurl }}/case-studies/">📊 Ver casos de estudio</a>
+        <a class="btn btn-ghost" href="{{ site.baseurl }}/projects/">🚀 Explorar proyectos</a>
+      </div>
+      <div class="hero-meta">
+        <span class="k">Causal Inference</span>
+        <span class="k">Reinforcement Learning</span>
+        <span class="k">Forecasting at Scale</span>
+        <span class="k">ML System Design</span>
+        <span class="k">Spatial Analytics</span>
+      </div>
+    </div>
+    <div class="window" aria-hidden="true">
+      <div class="window-bar"><span class="r"></span><span class="y"></span><span class="g"></span><em>radar-valorizacion-urbana</em></div>
+      <div class="window-body">
+        <img src="{{ site.baseurl }}/assets/images/projects/quito.jpg" alt="Vista de Quito desde El Panecillo" loading="lazy" />
+        <div class="chip chip-a"><b class="c1">MAE 8.4%</b></div>
+        <div class="chip chip-b"><b class="c2">Conformal 91%</b></div>
+        <div class="chip chip-c"><b class="c3">p95 &lt; 100 ms</b></div>
+        <div class="chip chip-d"><b class="c1">H3 · res 8</b></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-> "Los modelos no venden; las decisiones sí."
+<!-- STATS -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat"><b>10+</b><span>proyectos en producción</span></div>
+    <div class="stat"><b>+150%</b><span>ROI en detección por visión</span></div>
+    <div class="stat"><b>7–14 días</b><span>alertas tempranas en acuicultura</span></div>
+    <div class="stat"><b>221</b><span>municipios con índice de transparencia</span></div>
+  </div>
+</section>
 
-Mi formación en **Matemáticas y Estadística** me enseñó a convivir con la incertidumbre: a
-cuantificarla, modelarla y comunicarla. Como líder técnico traduzco esa disciplina en tres
-compromisos:
+<!-- FLAGSHIP PROJECTS -->
+<section class="section">
+  <div class="container">
+    <div class="eyebrow">Featured projects</div>
+    <h2>Proyectos insignia</h2>
+    <p class="section-lead">Tres sistemas donde el rigor estadístico y la ingeniería de producción se traducen en impacto medible.</p>
+    <div class="proj-grid">
+      <article class="proj">
+        <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/quito.jpg" alt="Vista de Quito" loading="lazy" /></div>
+        <div class="body">
+          <div class="tags"><i>LightGBM quantile</i><i>CNN+MLP</i><i>H3</i><i>FastAPI</i></div>
+          <h3>Radar de Valorización Urbana</h3>
+          <p>Predicción de valorización inmobiliaria para Quito y Guayaquil con intervalos calibrados y explicabilidad SHAP.</p>
+          <div class="metrics"><span>Error<b>−18%</b></span><span>Cobertura<b>91%</b></span><span>Latencia<b>&lt;100ms</b></span></div>
+        </div>
+      </article>
+      <article class="proj">
+        <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/camaronera.jpg" alt="Piscinas camaroneras" loading="lazy" /></div>
+        <div class="body">
+          <div class="tags"><i>LSTM</i><i>PPO</i><i>Simulador</i></div>
+          <h3>Bioseguridad Camarón AI</h3>
+          <p>Predicción de brotes con Deep Learning + agente RL que recomienda acciones de bioseguridad óptimas.</p>
+          <div class="metrics"><span>Alerta<b>7–14 días</b></span><span>Evitado<b>~$1.2M</b></span></div>
+        </div>
+      </article>
+      <article class="proj">
+        <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/banana-plantation.jpg" alt="Plantación de banano" loading="lazy" /></div>
+        <div class="body">
+          <div class="tags"><i>ResNet18</i><i>ONNX</i><i>Docker</i></div>
+          <h3>Banana Disease Detection</h3>
+          <p>Detección de enfermedades del banano en 5 s por imagen con transfer learning y exportación a edge.</p>
+          <div class="metrics"><span>ROI<b>+150%</b></span><span>Pesticidas<b>−25%</b></span><span>Inferencia<b>5 s</b></span></div>
+        </div>
+      </article>
+    </div>
+    <p style="margin-top: 26px;"><a class="btn btn-ghost" href="{{ site.baseurl }}/projects/">Ver los 10 proyectos →</a></p>
+  </div>
+</section>
 
-- **Rigor con dirección:** cada modelo parte de una hipótesis económica o causal explícita y se
-  valida con tests de estabilidad — no con notebooks que solo corren en mi máquina.
-- **Impacto medible:** el éxito se define con KPIs de negocio (ROI, latencia, cobertura, pérdidas
-  evitadas), no con métricas académicas aisladas.
-- **Escalado de personas y sistemas:** mentoreo de científicos de datos, roadmapping estratégico y
-  arquitecturas MLOps que sobreviven al primer release.
+<!-- AREAS -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="eyebrow">Strategic areas</div>
+    <h2>Áreas estratégicas</h2>
+    <p class="section-lead">Cinco dominios donde concentro mi experiencia técnica y de liderazgo.</p>
+    <div class="grid-3">
+      <div class="card">
+        <div class="icon">🧮</div>
+        <h3>Causal Inference &amp; Econometría</h3>
+        <p>Modelos hedónicos, diferencias-en-diferencias y diseño de experimentos para pricing, valoración y políticas públicas.</p>
+        <a class="more" href="{{ site.baseurl }}/case-studies/">Ver casos →</a>
+      </div>
+      <div class="card">
+        <div class="icon">📈</div>
+        <h3>Forecasting at Scale</h3>
+        <p>ARIMA/SARIMA, GAMs y deep learning con intervalos conformales para pronósticos con incertidumbre honesta.</p>
+        <a class="more" href="{{ site.baseurl }}/case-studies/">Ver casos →</a>
+      </div>
+      <div class="card">
+        <div class="icon">🤖</div>
+        <h3>RL for Dynamic Optimization</h3>
+        <p>Agentes PPO/DDQN para optimizar decisiones secuenciales bajo incertidumbre en operaciones y recursos.</p>
+        <a class="more" href="{{ site.baseurl }}/case-studies/">Ver casos →</a>
+      </div>
+      <div class="card">
+        <div class="icon">🏗️</div>
+        <h3>ML System Design</h3>
+        <p>ETL → feature store → API → dashboard, con monitoreo de drift (PSI), reentrenamiento y gobernanza.</p>
+        <a class="more" href="{{ site.baseurl }}/projects/">Ver proyectos →</a>
+      </div>
+      <div class="card">
+        <div class="icon">🗺️</div>
+        <h3>Spatial Analytics</h3>
+        <p>Rejillas H3, econometría espacial (Moran, LISA) y geoestadística para decisiones territoriales.</p>
+        <a class="more" href="{{ site.baseurl }}/case-studies/">Ver casos →</a>
+      </div>
+      <div class="card">
+        <div class="icon">🧭</div>
+        <h3>Strategic Roadmapping</h3>
+        <p>Traduzco problemas de negocio en hojas de ruta de datos con priorización por impacto y riesgo.</p>
+        <a class="more" href="{{ site.baseurl }}/publications/">Ver publicaciones →</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-## Áreas estratégicas
+<!-- HOW I WORK -->
+<section class="section">
+  <div class="container">
+    <div class="eyebrow">How I work</div>
+    <h2>Del problema al KPI medible</h2>
+    <p class="section-lead">Un proceso que empieza en la hipótesis económica y termina en producción monitoreada.</p>
+    <div class="steps">
+      <div class="step"><h3>Problema de negocio</h3><p>Definir la decisión que hay que mejorar y su KPI.</p></div>
+      <div class="step"><h3>Hipótesis causal</h3><p>Explicitar el mecanismo económico o físico que conecta datos y resultado.</p></div>
+      <div class="step"><h3>Datos + ETL</h3><p>Pipelines versionados con validación de esquemas y calidad.</p></div>
+      <div class="step"><h3>Modelado riguroso</h3><p>Validación espacial/temporal, calibración de incertidumbre y explicabilidad.</p></div>
+      <div class="step"><h3>Producción + monitoreo</h3><p>APIs, drift (PSI), reentrenamiento y gobernanza de modelos.</p></div>
+      <div class="step"><h3>Decisión con KPI</h3><p>Cerrar el ciclo midiendo el impacto real sobre el negocio.</p></div>
+    </div>
+  </div>
+</section>
 
-- **Causal Inference for Pricing & Economics** — modelos hedónicos, diferencias-en-diferencias y diseño de experimentos.
-- **Forecasting at Scale** — ARIMA/SARIMA, GAMs y deep learning con intervalos conformales.
-- **RL for Dynamic Optimization** — agentes PPO/DDQN para operaciones bajo incertidumbre.
-- **ML System Design** — ETL → feature store → API → dashboard, con drift y reentrenamiento.
-- **Spatial Analytics** — rejillas H3, econometría espacial (Moran, LISA) y geoestadística.
+<!-- QUOTE -->
+<section class="quote section-alt" style="border-bottom:0;">
+  <div class="container">
+    <blockquote>"Los modelos no venden; las decisiones sí."</blockquote>
+    <cite>— Jordán Villón, Principal Data Scientist</cite>
+  </div>
+</section>
 
-## Evidencia con números
-
-| Logro | Métrica |
-|---|---|
-| Detección de enfermedades en banano | **+150% ROI**, **−25% pesticidas**, 5 s/imagen |
-| Alertas tempranas en acuicultura | **7–14 días** antes del brote |
-| Valorización urbana (Quito/Guayaquil) | **−18% de error** vs. modelo hedónico baseline |
-| Índice de Transparencia Municipal | **221 municipios** cubiertos (2025) |
-| Modelos en producción | **p95 < 80 ms**, disponibilidad 99.9% |
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container">
+    <div class="cta-card">
+      <h2>¿Buscas un líder para tu equipo de datos?</h2>
+      <p>Roles: Principal Data Scientist · Sr Data Scientist · Lead Data Science · Head of Data</p>
+      <div class="row">
+        <a class="btn btn-primary" href="mailto:jvto18@proton.me">✉️ Escríbeme</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/jordanvillontorres" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/jordanvt18" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>

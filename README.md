@@ -69,7 +69,7 @@ flowchart TB
 
 | Layer | Tools |
 |---|---|
-| Generador | Jekyll 4 + Minimal Mistakes (gem), Ruby 3.3 |
+| Generador | Jekyll 4 + tema Minimal Mistakes (base), layouts y design system propios estilo Figma |
 | Plugins | jekyll-feed, jekyll-seo-tag, jekyll-sitemap, jekyll-include-cache, jekyll-paginate |
 | CI/CD | GitHub Actions (configure-pages, jekyll-build-pages, deploy-pages) |
 
@@ -78,18 +78,24 @@ flowchart TB
 ```
 .
 ├── _config.yml                # Configuración del sitio (locale, author, nav, defaults)
-├── index.html                 # Home (splash layout)
+├── index.html                 # Home (layout figma-home)
+├── _layouts/                  # figma-home.html, figma-page.html (diseño custom)
+├── _includes/                 # figma-head, figma-nav, figma-footer
 ├── _pages/                    # case-studies.md, projects.md, publications.md
-├── _data/navigation.yml       # Menú principal
 ├── assets/
-│   ├── css/main.scss          # Entry point del tema
-│   └── images/                # hero.svg, avatar.svg
+│   ├── css/figma.css          # Design system (tokens, componentes)
+│   └── images/                # avatar.svg, hero.svg, projects/ (fotos reales)
 ├── legacy/index.html          # Portafolio v1 conservado
 ├── Gemfile                    # Dependencias Ruby
 ├── .github/workflows/pages.yml
 ├── 404.html, robots.txt
 └── README.md
 ```
+
+## Créditos de imágenes
+
+- Fotos de Quito (El Panecillo), Guayaquil (Malecón), plantación de banano y piscinas camaroneras: **Wikimedia Commons**, licencias libres.
+- Predicciones del modelo de banano, curvas de entrenamiento, matriz de confusión y ridgeline de criminalidad: **generadas por los propios repositorios** del portafolio.
 
 ## 🚀 Quick Start
 
