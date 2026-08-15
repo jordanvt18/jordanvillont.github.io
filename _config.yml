@@ -1,6 +1,97 @@
-# Jekyll config - custom HTML overrides theme
-title: Jordan Villón Torres | Data Scientist & ML Engineer
-description: Data Scientist & ML Engineer specializing in Machine Learning, BI Dashboards, and Territorial Analytics.
+# =====================================================================
+# Jordán Villón — Principal Data Scientist · Portafolio profesional
+# Jekyll + Minimal Mistakes (gem). Docs: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+# =====================================================================
+
+# --- Site ---
+locale: "es"
+title: "Jordán Villón · Principal Data Scientist"
+name: "Jordán Villón"
+description: >-
+  Portafolio profesional de Jordán Villón, Principal Data Scientist: econometría causal,
+  aprendizaje por refuerzo y sistemas de ML escalables aplicados a decisiones de negocio.
 url: "https://jordanvt18.github.io"
-baseurl: ""
-plugins: []
+baseurl: "/jordanvillont.github.io"
+repository: "jordanvt18/jordanvillont.github.io"
+logo: "/assets/images/avatar.svg"
+
+# --- Author ---
+author:
+  name: "Jordán Villón"
+  avatar: "/assets/images/avatar.svg"
+  bio: "Principal Data Scientist · Econometría causal · Reinforcement Learning · ML Systems"
+  location: "Ecuador"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jordanvt18"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jordanvillontorres"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:jvto18@proton.me"
+
+# --- Footer ---
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jordanvt18"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jordanvillontorres"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:jvto18@proton.me"
+
+# --- Theme ---
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
+
+# --- Build ---
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-paginate
+
+# --- Search ---
+search: true
+search_full_content: true
+
+# --- Defaults ---
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: false
+  - scope:
+      path: "_pages"
+    values:
+      layout: single
+      author_profile: true
+
+# --- Pages (procesar directorios especiales) ---
+include:
+  - _pages
+
+# --- Analytics (vacío por ahora) ---
+analytics:
+  provider: false
+
+# --- Compresión de HTML en producción ---
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jordanvt18.github.io/jordanvillont.github.io/sitemap.xml

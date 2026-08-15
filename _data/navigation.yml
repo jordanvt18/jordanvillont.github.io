@@ -1,0 +1,11 @@
+main:
+  - title: "Inicio"
+    url: /
+  - title: "Casos de estudio"
+    url: /case-studies/
+  - title: "Proyectos"
+    url: /projects/
+  - title: "Publicaciones"
+    url: /publications/
+  - title: "Legacy"
+    url: /legacy/
