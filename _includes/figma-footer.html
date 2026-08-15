@@ -15,4 +15,26 @@
       document.querySelector('.nav-links').classList.toggle('open');
     });
   });
+
+  // Formulario de contacto: compone un mailto con los datos del formulario
+  document.addEventListener('submit', function (e) {
+    var form = e.target;
+    if (!form || form.id !== 'contact-form') return;
+    e.preventDefault();
+    var f = new FormData(form);
+    var nombre = (f.get('nombre') || '').trim();
+    var email = (f.get('email') || '').trim();
+    var rol = (f.get('rol') || '').trim();
+    var msg = (f.get('mensaje') || '').trim();
+    var subject = encodeURIComponent('Contacto desde portafolio — ' + (nombre || 'Mensaje'));
+    var body = encodeURIComponent(
+      'Nombre: ' + nombre + '\n' +
+      'Email: ' + email + '\n' +
+      'Interés: ' + rol + '\n\n' +
+      msg
+    );
+    window.location.href = 'mailto:jvto18@proton.me?subject=' + subject + '&body=' + body;
+    var note = document.getElementById('contact-note');
+    if (note) note.hidden = false;
+  });
 </script>

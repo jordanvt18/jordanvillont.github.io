@@ -122,13 +122,9 @@ permalink: /case-studies/
 <!-- ============ TRANSPARENCIA ============ -->
 <section class="cs flip" style="padding-top: 0;">
   <div class="cs-media">
-    <div class="cover" style="border-radius: var(--radius); border: 1px solid var(--border); overflow: hidden; box-shadow: var(--shadow);">
-      <div style="height: 340px; display: grid; place-items: center; background: linear-gradient(135deg, #14233a, #1c1430 60%, #2a1230);">
-        <div style="text-align: center;">
-          <b style="font-family: var(--font-mono); font-size: 5rem; font-weight: 800; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;">221</b>
-          <p style="color: var(--muted); font-size: .9rem;">municipios · Ecuador 2025</p>
-        </div>
-      </div>
+    <div style="position: relative;">
+      <img src="{{ site.baseurl }}/assets/images/projects/transparencia.jpg" alt="Palacio Municipal de Quito" loading="lazy" />
+      <div class="chip chip-c" style="bottom: 18px; left: 18px;"><b class="c2">221 municipios · Ecuador 2025</b></div>
     </div>
   </div>
   <div>

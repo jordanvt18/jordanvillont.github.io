@@ -35,7 +35,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><div class="cov">221</div></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/transparencia.jpg" alt="Palacio Municipal de Quito" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>Índice compuesto</i><i>FastAPI</i></div>
       <h3>Transparency Index Ecuador</h3>
@@ -44,7 +44,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><div class="cov">0–100</div></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/asamblea.jpg" alt="Pleno de la Asamblea Nacional del Ecuador" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>ETL</i><i>NLP</i><i>CI/CD</i></div>
       <h3>Perfil Profesionalización Partidos</h3>
@@ -53,7 +53,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><div class="cov">2–10×</div></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/benchmark-chart.svg" alt="Gráfico del benchmark: tiempo relativo vs Pandas" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>Pandas</i><i>Polars</i><i>data.table</i></div>
       <h3>Python Data Processing Benchmark</h3>
@@ -62,7 +62,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><div class="cov">EC</div></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/bancos.jpg" alt="Edificio del Banco Central del Ecuador" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>JS/HTML</i><i>Pipelines CI</i></div>
       <h3>Bancos &amp; Cooperativas Ecuador</h3>
@@ -71,7 +71,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><div class="cov">♥</div></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/smartlife.jpg" alt="Entrenamiento y salud — SmartLife" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>Node.js</i><i>Estático</i></div>
       <h3>SmartLife Analyzer</h3>

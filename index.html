@@ -166,10 +166,43 @@ permalink: /
       <h2>¿Buscas un líder para tu equipo de datos?</h2>
       <p>Roles: Principal Data Scientist · Sr Data Scientist · Lead Data Science · Head of Data</p>
       <div class="row">
-        <a class="btn btn-primary" href="mailto:jvto18@proton.me">✉️ Escríbeme</a>
+        <a class="btn btn-primary" href="{{ site.baseurl }}/#contact">✉️ Escríbeme</a>
         <a class="btn btn-ghost" href="https://www.linkedin.com/in/jordanvillontorres" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn btn-ghost" href="https://github.com/jordanvt18" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container" style="max-width: 780px;">
+    <div class="eyebrow">Contacto</div>
+    <h2>Hablemos de tu equipo de datos</h2>
+    <p class="section-lead">Cuéntame tu reto — el formulario abre tu aplicación de correo con el mensaje listo para enviar.</p>
+    <form id="contact-form" class="contact-form">
+      <div class="form-row">
+        <label>Nombre
+          <input type="text" name="nombre" required placeholder="Tu nombre" autocomplete="name" />
+        </label>
+        <label>Email
+          <input type="email" name="email" required placeholder="tu@email.com" autocomplete="email" />
+        </label>
+      </div>
+      <label>¿Qué estás buscando?
+        <select name="rol">
+          <option>Principal / Sr Data Scientist</option>
+          <option>Lead Data Science</option>
+          <option>Head of Data</option>
+          <option>Consultoría / Colaboración</option>
+          <option>Otro</option>
+        </select>
+      </label>
+      <label>Mensaje
+        <textarea name="mensaje" rows="5" required placeholder="Cuéntame sobre tu proyecto, equipo o reto..."></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary">✉️ Enviar mensaje</button>
+      <p id="contact-note" class="form-note" hidden>✓ Se abrió tu app de correo con el mensaje listo. Si no se abrió, escríbeme directo a jvto18@proton.me</p>
+    </form>
   </div>
 </section>
