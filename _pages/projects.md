@@ -26,7 +26,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/banana-cordana.png" alt="Detección real de Cordana por el modelo entrenado" loading="lazy" /></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/banana-plantation.jpg" alt="Plantación real de banano: el dominio de Banana Disease Detection" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>ResNet18</i><i>ONNX</i><i>Docker</i></div>
       <h3>Banana Disease Detection</h3>
