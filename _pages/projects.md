@@ -8,7 +8,7 @@ permalink: /projects/
 
 <div class="proj-grid" style="margin: 32px 0 60px;">
   <article class="proj">
-    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/quito.jpg" alt="Vista de Quito" loading="lazy" /></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/radar-dashboard.jpg" alt="Dashboard del Radar de Valorización Urbana en producción" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>LightGBM</i><i>CNN+MLP</i><i>H3</i><i>FastAPI</i></div>
       <h3>Radar de Valorización Urbana</h3>
@@ -17,7 +17,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/camaronera.jpg" alt="Piscinas camaroneras" loading="lazy" /></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/bioseguridad-dashboard.jpg" alt="Dashboard operativo de Bioseguridad Camarón AI" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>LSTM</i><i>PPO</i><i>FastAPI</i></div>
       <h3>Bioseguridad Camarón AI</h3>
@@ -26,7 +26,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/banana-plantation.jpg" alt="Plantación de banano" loading="lazy" /></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/banana-cordana.png" alt="Detección real de Cordana por el modelo entrenado" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>ResNet18</i><i>ONNX</i><i>Docker</i></div>
       <h3>Banana Disease Detection</h3>
@@ -35,7 +35,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/transparencia.jpg" alt="Palacio Municipal de Quito" loading="lazy" /></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/transparencia-dashboard.jpg" alt="Comparador del Índice de Transparencia Municipal" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>Índice compuesto</i><i>FastAPI</i></div>
       <h3>Transparency Index Ecuador</h3>
@@ -44,7 +44,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/asamblea.jpg" alt="Pleno de la Asamblea Nacional del Ecuador" loading="lazy" /></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/perfil-dashboard.jpg" alt="Índice de profesionalización de precandidatos en producción" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>ETL</i><i>NLP</i><i>CI/CD</i></div>
       <h3>Perfil Profesionalización Partidos</h3>
@@ -62,7 +62,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/bancos.jpg" alt="Edificio del Banco Central del Ecuador" loading="lazy" /></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/bancos-dashboard.jpg" alt="Comparador financiero de bancos y cooperativas en producción" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>JS/HTML</i><i>Pipelines CI</i></div>
       <h3>Bancos &amp; Cooperativas Ecuador</h3>
@@ -71,7 +71,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/smartlife.jpg" alt="Entrenamiento y salud — SmartLife" loading="lazy" /></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/smartlife-dashboard.jpg" alt="Dashboard de salud predictiva SmartLife Analyzer" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>Node.js</i><i>Estático</i></div>
       <h3>SmartLife Analyzer</h3>
@@ -80,7 +80,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/crime-ridgeline.png" alt="Ridgeline de criminalidad por provincia" loading="lazy" /></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/crime-dashboard.jpg" alt="Dashboard geoespacial de criminalidad en producción" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>ARIMA</i><i>Econometría espacial</i><i>Dash</i></div>
       <h3>Ecuador Crime Analysis</h3>
@@ -89,7 +89,7 @@ permalink: /projects/
     </div>
   </article>
   <article class="proj">
-    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/guayaquil.jpg" alt="Malecón de Guayaquil" loading="lazy" /></div>
+    <div class="cover"><img src="{{ site.baseurl }}/assets/images/projects/portafolio-home.jpg" alt="Este portafolio en producción" loading="lazy" /></div>
     <div class="body">
       <div class="tags"><i>Jekyll</i><i>GitHub Actions</i></div>
       <h3>jordanvillont.github.io</h3>

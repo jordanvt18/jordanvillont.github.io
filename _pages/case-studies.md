@@ -9,7 +9,7 @@ permalink: /case-studies/
 <!-- ============ RADAR ============ -->
 <section class="cs">
   <div class="cs-media">
-    <img src="{{ site.baseurl }}/assets/images/projects/quito.jpg" alt="Vista de Quito desde El Panecillo" loading="lazy" />
+    <img src="{{ site.baseurl }}/assets/images/projects/radar-dashboard.jpg" alt="Dashboard del Radar de Valorización Urbana: mapa Leaflet con predicciones" loading="lazy" />
   </div>
   <div>
     <div class="eyebrow">01 · Causal Inference + Spatial</div>
@@ -39,7 +39,7 @@ permalink: /case-studies/
 <!-- ============ BIOSEGURIDAD ============ -->
 <section class="cs flip">
   <div class="cs-media">
-    <img src="{{ site.baseurl }}/assets/images/projects/camaronera.jpg" alt="Piscinas camaroneras" loading="lazy" />
+    <img src="{{ site.baseurl }}/assets/images/projects/bioseguridad-dashboard.jpg" alt="Dashboard operativo de bioseguridad camarón: alertas y acciones del agente RL" loading="lazy" />
   </div>
   <div>
     <div class="eyebrow">02 · Deep Learning + Reinforcement Learning</div>
@@ -123,7 +123,7 @@ permalink: /case-studies/
 <section class="cs flip" style="padding-top: 0;">
   <div class="cs-media">
     <div style="position: relative;">
-      <img src="{{ site.baseurl }}/assets/images/projects/transparencia.jpg" alt="Palacio Municipal de Quito" loading="lazy" />
+      <img src="{{ site.baseurl }}/assets/images/projects/transparencia-dashboard.jpg" alt="Comparador del Índice de Transparencia Municipal en producción" loading="lazy" />
       <div class="chip chip-c" style="bottom: 18px; left: 18px;"><b class="c2">221 municipios · Ecuador 2025</b></div>
     </div>
   </div>
