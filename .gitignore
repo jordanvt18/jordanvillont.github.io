@@ -8,3 +8,6 @@ vendor/
 # vista previa local
 build_preview.py
 preview/
+extract_texts.py
+check_i18n.py
+text_fragments.json

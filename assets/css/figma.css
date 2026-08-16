@@ -63,6 +63,25 @@ a { color: inherit; text-decoration: none; }
 .nav-links a:hover { color: var(--text); }
 .nav-cta { display: none; }
 @media (min-width: 900px) { .nav-cta { display: inline-flex; } }
+
+/* Selector de idioma */
+.lang-switch {
+  display: inline-flex; align-items: center; gap: 2px;
+  border: 1px solid var(--border-strong); border-radius: 999px;
+  padding: 2px; margin-left: 22px; flex: 0 0 auto;
+}
+.lang-switch button {
+  background: none; border: 0; border-radius: 999px; cursor: pointer;
+  color: var(--muted); font-family: var(--font-mono); font-size: 0.72rem;
+  font-weight: 700; padding: 4px 9px; transition: all 0.2s; line-height: 1;
+}
+.lang-switch button:hover { color: var(--text); }
+.lang-switch button.active { background: rgba(34, 211, 238, 0.14); color: var(--cyan); }
+@media (max-width: 899px) {
+  .nav-inner { gap: 12px; }
+  .lang-switch { margin-left: auto; order: 3; }
+  .nav-burger { order: 4; }
+}
 .nav-burger { display: none; background: none; border: 0; color: var(--text); font-size: 1.4rem; cursor: pointer; }
 @media (max-width: 899px) {
   .nav-burger { display: block; }
@@ -239,9 +258,13 @@ a { color: inherit; text-decoration: none; }
 .footer { border-top: 1px solid var(--border); padding: 40px 0; background: var(--bg-2); }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
 .footer .credits { color: var(--faint); font-size: 0.8rem; }
-.footer .social { display: flex; gap: 16px; }
-.footer .social a { color: var(--muted); font-size: 0.9rem; transition: color 0.2s; }
+.footer .social { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
+.footer .social a {
+  display: inline-flex; align-items: center; gap: 7px;
+  color: var(--muted); font-size: 0.9rem; transition: color 0.2s;
+}
 .footer .social a:hover { color: var(--cyan); }
+.footer .social svg { flex: 0 0 auto; }
 
 /* ---------- Page hero (inner pages) ---------- */
 .page-hero { padding: calc(var(--nav-h) + 56px) 0 36px; border-bottom: 1px solid var(--border); background: var(--bg-2); }
