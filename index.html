@@ -175,34 +175,63 @@ permalink: /
 </section>
 
 <!-- CONTACT -->
-<section class="section" id="contact">
-  <div class="container" style="max-width: 780px;">
+<section class="section section-alt" id="contact">
+  <div class="container" style="max-width: 1020px;">
     <div class="eyebrow">Contacto</div>
     <h2>Hablemos de tu equipo de datos</h2>
-    <p class="section-lead">Cuéntame tu reto — el formulario abre tu aplicación de correo con el mensaje listo para enviar.</p>
-    <form id="contact-form" class="contact-form">
-      <div class="form-row">
-        <label>Nombre
-          <input type="text" name="nombre" required placeholder="Tu nombre" autocomplete="name" />
+    <p class="section-lead">Cuéntame tu reto — el mensaje llega directo a mi correo y suelo responder en menos de 24 h.</p>
+    <div class="contact-grid">
+      <aside class="contact-aside">
+        <div class="contact-card">
+          <h3>Contacto directo</h3>
+          <button class="contact-line" id="copy-email" type="button" title="Copiar dirección de correo">
+            <span class="ci" aria-hidden="true">✉️</span>
+            <span class="ct"><b>jvto18@proton.me</b><small>haz clic para copiar</small></span>
+            <span class="cx" id="copy-feedback">copiar</span>
+          </button>
+          <a class="contact-line" href="https://www.linkedin.com/in/jordanvillontorres" target="_blank" rel="noopener">
+            <span class="ci" aria-hidden="true">💼</span>
+            <span class="ct"><b>LinkedIn</b><small>/in/jordanvillontorres</small></span>
+            <span class="cx">abrir →</span>
+          </a>
+          <a class="contact-line" href="https://github.com/jordanvt18" target="_blank" rel="noopener">
+            <span class="ci" aria-hidden="true">🐙</span>
+            <span class="ct"><b>GitHub</b><small>@jordanvt18</small></span>
+            <span class="cx">abrir →</span>
+          </a>
+        </div>
+        <div class="contact-meta">
+          <span>📍 Ecuador · GMT-5 · disponible en remoto</span>
+          <span>⚡ Respuesta habitual en &lt; 24 h</span>
+          <span>🗣️ Español · English</span>
+        </div>
+      </aside>
+      <form id="contact-form" class="contact-form" action="https://formsubmit.co/jvto18@proton.me" method="POST">
+        <div class="form-row">
+          <label>Nombre
+            <input type="text" name="nombre" required placeholder="Tu nombre" autocomplete="name" />
+          </label>
+          <label>Email
+            <input type="email" name="email" required placeholder="tu@email.com" autocomplete="email" />
+          </label>
+        </div>
+        <label>¿Qué estás buscando?
+          <select name="rol">
+            <option>Principal / Sr Data Scientist</option>
+            <option>Lead Data Science</option>
+            <option>Head of Data</option>
+            <option>Consultoría / Colaboración</option>
+            <option>Otro</option>
+          </select>
         </label>
-        <label>Email
-          <input type="email" name="email" required placeholder="tu@email.com" autocomplete="email" />
+        <label>Mensaje
+          <textarea name="mensaje" rows="5" required placeholder="Cuéntame sobre tu proyecto, equipo o reto..."></textarea>
         </label>
-      </div>
-      <label>¿Qué estás buscando?
-        <select name="rol">
-          <option>Principal / Sr Data Scientist</option>
-          <option>Lead Data Science</option>
-          <option>Head of Data</option>
-          <option>Consultoría / Colaboración</option>
-          <option>Otro</option>
-        </select>
-      </label>
-      <label>Mensaje
-        <textarea name="mensaje" rows="5" required placeholder="Cuéntame sobre tu proyecto, equipo o reto..."></textarea>
-      </label>
-      <button type="submit" class="btn btn-primary">✉️ Enviar mensaje</button>
-      <p id="contact-note" class="form-note" hidden>✓ Se abrió tu app de correo con el mensaje listo. Si no se abrió, escríbeme directo a jvto18@proton.me</p>
-    </form>
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <input type="hidden" name="_template" value="table" />
+        <button type="submit" class="btn btn-primary">✉️ Enviar mensaje</button>
+        <p id="contact-note" class="form-note" role="status" aria-live="polite" hidden></p>
+      </form>
+    </div>
   </div>
 </section>
